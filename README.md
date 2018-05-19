@@ -32,6 +32,8 @@ Clone the repository to your `wp-content/plugins` directory
 
 ## Contributing
 
+We're usingt [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
+
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
