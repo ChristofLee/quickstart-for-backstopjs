@@ -115,8 +115,18 @@
 
 				if (key === "scenarios") {
 					const scenarios = moddedConfig[key];
+					console.log(scenariosHideSelectors[0]);
 					for (var scenario in scenarios) {
-						scenarios[scenario].hideSelectors = scenariosHideSelectors;
+						if (
+							scenariosHideSelectors[0] === "" &&
+							scenarios[scenario].hideSelectors != undefined
+						) {
+							console.log("splice");
+							console.log(scenarios[scenario]);
+							delete scenarios[scenario].hideSelectors;
+						} else {
+							scenarios[scenario].hideSelectors = scenariosHideSelectors;
+						}
 					}
 				}
 			}
