@@ -24,11 +24,25 @@ These instructions will get you a copy of the project up and running on your loc
 Clone the repository to your `wp-content/plugins` directory
 
 - Go to your plugins directory `cd wp-content/plugins`
-- Create a directory for the plugin `mkdir quickstart-for-backstopjs`
 - Clone the repo into the directory
 
 
-## Testing coming soon
+## Testing
+
+**Manual Testing**
+
+To test the plugin:
+- Create a new WP install
+- Install test data from [wptest.io](http://wptest.io/)
+- Initialise BackstopJS
+- Go to the plugin in `wp-admin -> tools -> backstopjs`
+- Copy the outputted config to `backstop.json`
+- Run BackstopJS tests
+- Confirm your output works
+
+**Automated Testing**
+
+_Coming soon_
 
 ## Contributing
 
