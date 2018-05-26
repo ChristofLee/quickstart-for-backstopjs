@@ -8,27 +8,42 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-- An up-to-date Wordpress install
-- BackstopJS ([how to install](https://www.christoflee.co.uk/backstopjs-a-beginners-guide-to-testing-in-wordpress/))
+* An up-to-date Wordpress install
+* BackstopJS ([how to install](https://www.christoflee.co.uk/backstopjs-a-beginners-guide-to-testing-in-wordpress/))
 
 ### Installing
 
 **Download the repo**
 
-- Download the repository to your `wp-content/plugins` directory
-- Extract the zip
-- Rename the folder to `quickstart-for-backstopjs`
+* Download the repository to your `wp-content/plugins` directory
+* Extract the zip
+* Rename the folder to `quickstart-for-backstopjs`
 
 **Clone the repo**
 
 Clone the repository to your `wp-content/plugins` directory
 
-- Go to your plugins directory `cd wp-content/plugins`
-- Create a directory for the plugin `mkdir quickstart-for-backstopjs`
-- Clone the repo into the directory
+* Go to your plugins directory `cd wp-content/plugins`
+* Clone the repo into the directory
 
+## Testing
 
-## Testing coming soon
+**Manual Testing**
+
+To test the plugin:
+
+* Create a new WP install
+* Install test data from [wptest.io](http://wptest.io/)
+* Initialise BackstopJS
+* Go to the plugin in `wp-admin -> tools -> backstopjs`
+* To ensure _hideSelectors_ is working, add `.gallery img` to hide the changing gallery images
+* Copy the outputted config to `backstop.json`
+* Run BackstopJS tests
+* Confirm your output works
+
+**Automated Testing**
+
+_Coming soon_
 
 ## Contributing
 
@@ -38,11 +53,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Authors
 
-* **Christof Lee** - *Initial work* - [PurpleBooth](https://github.com/christoflee)
+* **Christof Lee** - _Initial work_ - [PurpleBooth](https://github.com/christoflee)
 
 ## License
 
