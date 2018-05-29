@@ -116,7 +116,14 @@
 				if (key === "scenarios") {
 					const scenarios = moddedConfig[key];
 					for (var scenario in scenarios) {
-						scenarios[scenario].hideSelectors = scenariosHideSelectors;
+						if (
+							scenariosHideSelectors[0] === "" &&
+							scenarios[scenario].hideSelectors != undefined
+						) {
+							delete scenarios[scenario].hideSelectors;
+						} else {
+							scenarios[scenario].hideSelectors = scenariosHideSelectors;
+						}
 					}
 				}
 			}
