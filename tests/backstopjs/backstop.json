@@ -1,0 +1,131 @@
+{
+	"id": "wptestio",
+	"viewports": [
+		{
+			"label": "phone",
+			"width": 320,
+			"height": 480
+		},
+		{
+			"label": "tablet",
+			"width": 1024,
+			"height": 768
+		}
+	],
+	"onBeforeScript": "puppet/onBefore.js",
+	"onReadyScript": "puppet/onReady.js",
+	"scenarios": [
+		{
+			"label": "Amazon Store (1062)",
+			"url": "http://localhost/quickstart-for-backstopjs-test/amazon-store/"
+		},
+		{
+			"label": "Home (1064)",
+			"url": "http://localhost/quickstart-for-backstopjs-test/home/"
+		},
+		{
+			"label": "Blog (1066)",
+			"url": "http://localhost/quickstart-for-backstopjs-test/blog/"
+		},
+		{
+			"label": "Page Comments Disabled (1075)",
+			"url":
+				"http://localhost/quickstart-for-backstopjs-test/page-comments-disabled/"
+		},
+		{
+			"label": "Page Comments (1077)",
+			"url": "http://localhost/quickstart-for-backstopjs-test/page-comments/"
+		},
+		{
+			"label": "Page Image Alignment (1080)",
+			"url":
+				"http://localhost/quickstart-for-backstopjs-test/page-image-alignment/"
+		},
+		{
+			"label": "Page Markup And Formatting (1083)",
+			"url":
+				"http://localhost/quickstart-for-backstopjs-test/page-markup-and-formatting/"
+		},
+		{
+			"label": "About (1086)",
+			"url": "http://localhost/quickstart-for-backstopjs-test/about/"
+		},
+		{
+			"label": "Parent Page (1088)",
+			"url": "http://localhost/quickstart-for-backstopjs-test/parent-page/"
+		},
+		{
+			"label": "Child Page 01 (1090)",
+			"url":
+				"http://localhost/quickstart-for-backstopjs-test/parent-page/child-page-01/"
+		},
+		{
+			"label": "Child Page 02 (1092)",
+			"url":
+				"http://localhost/quickstart-for-backstopjs-test/parent-page/child-page-02/"
+		},
+		{
+			"label": "Child Page 03 (1094)",
+			"url":
+				"http://localhost/quickstart-for-backstopjs-test/parent-page/child-page-03/"
+		},
+		{
+			"label": "Grandchild Page (1102)",
+			"url":
+				"http://localhost/quickstart-for-backstopjs-test/parent-page/child-page-03/grandchild-page/"
+		},
+		{
+			"label": "Child Page 04 (1096)",
+			"url":
+				"http://localhost/quickstart-for-backstopjs-test/parent-page/child-page-04/"
+		},
+		{
+			"label": "Child Page 05 (1098)",
+			"url":
+				"http://localhost/quickstart-for-backstopjs-test/parent-page/child-page-05/"
+		},
+		{
+			"label": "Sample Page (2)",
+			"url": "http://localhost/quickstart-for-backstopjs-test/sample-page/"
+		},
+		{
+			"label": "Hello world! (1)",
+			"url":
+				"http://localhost/quickstart-for-backstopjs-test/2018/05/29/hello-world/"
+		},
+		{
+			"label": "Tiled Gallery (1031)",
+			"url":
+				"http://localhost/quickstart-for-backstopjs-test/2013/03/15/tiled-gallery/"
+		},
+		{
+			"label": "Twitter Embeds (1027)",
+			"url":
+				"http://localhost/quickstart-for-backstopjs-test/2013/03/15/twitter-embeds/"
+		},
+		{
+			"label": "Featured Image (Vertical) (1016)",
+			"url":
+				"http://localhost/quickstart-for-backstopjs-test/2013/03/15/featured-image-vertical/"
+		},
+		{
+			"label": "Featured Image (Horizontal) (1011)",
+			"url":
+				"http://localhost/quickstart-for-backstopjs-test/2013/03/15/featured-image-horizontal/"
+		}
+	],
+	"paths": {
+		"bitmaps_reference": "backstop_data/bitmaps_reference",
+		"bitmaps_test": "backstop_data/bitmaps_test",
+		"engine_scripts": "backstop_data/engine_scripts",
+		"html_report": "backstop_data/html_report",
+		"ci_report": "backstop_data/ci_report"
+	},
+	"report": ["browser"],
+	"engine": "puppet",
+	"engineFlags": [],
+	"asyncCaptureLimit": 5,
+	"asyncCompareLimit": 50,
+	"debug": false,
+	"debugWindow": false
+}
