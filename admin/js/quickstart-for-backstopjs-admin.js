@@ -64,6 +64,9 @@
 		// Basic Options
 		var $scenariosHideSelectors = $(".js-scenarios-hideSelectors");
 
+		if ( ! $scenariosHideSelectors.length )
+			return false;
+
 		createConfig();
 
 		$legacyConfigContainer.change(function() {
