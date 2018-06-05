@@ -4,7 +4,7 @@
   "description": "A wordpress plugin",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/cypress open"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "author": "Christof Lee",
   "license": "MIT",
   "homepage": "https://bitbucket.org/christoflee/quickstart-for-backstopjs#readme",
-  "contributors": []
+  "contributors": [],
+  "devDependencies": {
+    "cypress": "^2.1.0"
+  }
 }

@@ -17,101 +17,122 @@
 	"scenarios": [
 		{
 			"label": "Amazon Store (1062)",
-			"url": "http://localhost/quickstart-for-backstopjs-test/amazon-store/"
+			"url": "http://localhost/quickstart-for-backstopjs-test/amazon-store/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "Home (1064)",
-			"url": "http://localhost/quickstart-for-backstopjs-test/home/"
+			"url": "http://localhost/quickstart-for-backstopjs-test/home/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "Blog (1066)",
-			"url": "http://localhost/quickstart-for-backstopjs-test/blog/"
+			"url": "http://localhost/quickstart-for-backstopjs-test/blog/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "Page Comments Disabled (1075)",
 			"url":
-				"http://localhost/quickstart-for-backstopjs-test/page-comments-disabled/"
+				"http://localhost/quickstart-for-backstopjs-test/page-comments-disabled/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "Page Comments (1077)",
-			"url": "http://localhost/quickstart-for-backstopjs-test/page-comments/"
+			"url": "http://localhost/quickstart-for-backstopjs-test/page-comments/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "Page Image Alignment (1080)",
 			"url":
-				"http://localhost/quickstart-for-backstopjs-test/page-image-alignment/"
+				"http://localhost/quickstart-for-backstopjs-test/page-image-alignment/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "Page Markup And Formatting (1083)",
 			"url":
-				"http://localhost/quickstart-for-backstopjs-test/page-markup-and-formatting/"
+				"http://localhost/quickstart-for-backstopjs-test/page-markup-and-formatting/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "About (1086)",
-			"url": "http://localhost/quickstart-for-backstopjs-test/about/"
+			"url": "http://localhost/quickstart-for-backstopjs-test/about/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "Parent Page (1088)",
-			"url": "http://localhost/quickstart-for-backstopjs-test/parent-page/"
+			"url": "http://localhost/quickstart-for-backstopjs-test/parent-page/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "Child Page 01 (1090)",
 			"url":
-				"http://localhost/quickstart-for-backstopjs-test/parent-page/child-page-01/"
+				"http://localhost/quickstart-for-backstopjs-test/parent-page/child-page-01/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "Child Page 02 (1092)",
 			"url":
-				"http://localhost/quickstart-for-backstopjs-test/parent-page/child-page-02/"
+				"http://localhost/quickstart-for-backstopjs-test/parent-page/child-page-02/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "Child Page 03 (1094)",
 			"url":
-				"http://localhost/quickstart-for-backstopjs-test/parent-page/child-page-03/"
+				"http://localhost/quickstart-for-backstopjs-test/parent-page/child-page-03/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "Grandchild Page (1102)",
 			"url":
-				"http://localhost/quickstart-for-backstopjs-test/parent-page/child-page-03/grandchild-page/"
+				"http://localhost/quickstart-for-backstopjs-test/parent-page/child-page-03/grandchild-page/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "Child Page 04 (1096)",
 			"url":
-				"http://localhost/quickstart-for-backstopjs-test/parent-page/child-page-04/"
+				"http://localhost/quickstart-for-backstopjs-test/parent-page/child-page-04/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "Child Page 05 (1098)",
 			"url":
-				"http://localhost/quickstart-for-backstopjs-test/parent-page/child-page-05/"
+				"http://localhost/quickstart-for-backstopjs-test/parent-page/child-page-05/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "Sample Page (2)",
-			"url": "http://localhost/quickstart-for-backstopjs-test/sample-page/"
+			"url": "http://localhost/quickstart-for-backstopjs-test/sample-page/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "Hello world! (1)",
 			"url":
-				"http://localhost/quickstart-for-backstopjs-test/2018/05/29/hello-world/"
+				"http://localhost/quickstart-for-backstopjs-test/2018/05/29/hello-world/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "Tiled Gallery (1031)",
 			"url":
-				"http://localhost/quickstart-for-backstopjs-test/2013/03/15/tiled-gallery/"
+				"http://localhost/quickstart-for-backstopjs-test/2013/03/15/tiled-gallery/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "Twitter Embeds (1027)",
 			"url":
-				"http://localhost/quickstart-for-backstopjs-test/2013/03/15/twitter-embeds/"
+				"http://localhost/quickstart-for-backstopjs-test/2013/03/15/twitter-embeds/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "Featured Image (Vertical) (1016)",
 			"url":
-				"http://localhost/quickstart-for-backstopjs-test/2013/03/15/featured-image-vertical/"
+				"http://localhost/quickstart-for-backstopjs-test/2013/03/15/featured-image-vertical/",
+			"hideSelectors": [".gallery img"]
 		},
 		{
 			"label": "Featured Image (Horizontal) (1011)",
 			"url":
-				"http://localhost/quickstart-for-backstopjs-test/2013/03/15/featured-image-horizontal/"
+				"http://localhost/quickstart-for-backstopjs-test/2013/03/15/featured-image-horizontal/",
+			"hideSelectors": [".gallery img"]
 		}
 	],
 	"paths": {
